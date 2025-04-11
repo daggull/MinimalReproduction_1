@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	
+	<meta title="ProblemDemo1" package="org.bastec.ProblemDemo1" version="1.0.0" company="BASTEC" />
+	<app path="export" file="ProblemDemo1" main="ProblemDemo1" />
+	
+	<window width="800" height="600" if="desktop" />
+	<window width="0" height="0" if="html5" />
+	
+	<source path="source" />
+
+	<library path="assets/library.swf" preload="true" generate="true" />
+
+	<haxelib name="openfl" />
+	<haxelib name="datetime" />
+	
+	<haxeflag name="-D" value="analyzer-module" />
+	<haxeflag name="-debug" />
+</project>

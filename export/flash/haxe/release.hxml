@@ -1,0 +1,72 @@
+-main ApplicationMain 
+-cp /home/dag/MyCode/ProblemDemo1/haxelib/swf/3,3,1/src
+-D swf=3.3.1
+--macro openfl.utils._internal.ExtraParamsMacro.include()
+-cp /home/dag/haxelib/openfl/git/src
+-D openfl=9.5.0
+--macro lime._internal.macros.DefineMacro.run()
+-cp /home/dag/MyCode/ProblemDemo1/haxelib/lime/8,2,2/src
+-D lime=8.2.2
+-cp /home/dag/MyCode/ProblemDemo1/haxelib/datetime/3,1,4/src
+-D datetime=3.1.4
+-cp /home/dag/MyCode/ProblemDemo1/export/flash/haxe/_generated
+-cp source
+-cp /home/dag/haxelib/openfl/git/lib/flash-externs/src
+-D native-trace
+-D tools=8.2.2
+-D flash-use-stage
+-D no-compilation
+-D openfl-flash
+-D web
+-D analyzer-module
+-debug
+-resource assets/library.swf@swf:library.swf
+res.ui.Button
+res.icon.Future
+res.icon.Past
+res.graphics.Shine
+res.ui.Checkbox
+res.ui.Inverter
+res.texts.Online
+res.icon.Up
+res.ui.Dialog
+res.ui.Splitter
+res.graphics.TopBar
+res.ui.RightButton
+res.icon.Left
+res.ui.List
+res.ui.LeftButton
+res.graphics.BottomBar
+res.ui.Glow
+res.ui.Radio
+res.ui.SmoothSplitter
+res.ui.Sphere
+res.ui.ViewSplitter
+res.ui.Ornament1
+res.ui.SquareButton
+res.ui.ListEmphasis
+res.icon.Down
+res.ui.RadioCheck
+res.ui.Diamond
+res.ui.Panel
+res.ui.CheckboxCheck
+res.ui.Frame
+res.ui.Workspace
+res.ui.Input
+res.texts.Loading
+res.ui.ProgressBar
+res.ui.Flags
+res.ui.Progress
+res.icon.Right
+res.icon.Slide
+res.ui.Box
+res.icon.Config
+res.ui.Canvas
+res.ui.ListColumn
+res.graphics.ScrollField
+swf.SWFLibrary
+-cp export/flash
+-swf-lib obj/assets.swf
+-swf-version 17
+-swf export/flash/bin/ProblemDemo1.swf
+-cp export/flash/haxe

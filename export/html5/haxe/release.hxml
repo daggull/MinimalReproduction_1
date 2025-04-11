@@ -1,0 +1,32 @@
+-main ApplicationMain 
+-cp /home/dag/MyCode/ProblemDemo1/haxelib/swf/3,3,1/src
+-D swf=3.3.1
+--macro openfl.utils._internal.ExtraParamsMacro.include()
+-cp /home/dag/haxelib/openfl/git/src
+-D openfl=9.5.0
+--macro lime._internal.macros.DefineMacro.run()
+-cp /home/dag/MyCode/ProblemDemo1/haxelib/lime/8,2,2/src
+-D lime=8.2.2
+-cp /home/dag/MyCode/ProblemDemo1/haxelib/datetime/3,1,4/src
+-D datetime=3.1.4
+-cp /home/dag/MyCode/newMinimalRepro/MinimalReproduction_1/export/html5/haxe/_generated
+-cp source
+-D lime-threads
+-D tools=8.2.2
+-D lime-canvas
+-D howlerjs
+-D no-compilation
+-D openfl-html5
+-D lime-webgl
+-D lime-dom
+-D lime-howlerjs
+-D lime-html5
+-D html5
+-D web
+--remap flash:openfl
+-D analyzer-module
+-debug
+swf.exporters.animate.AnimateLibrary
+-js export/html5/bin/ProblemDemo1.js
+-cp export/html5/haxe
+-D html5
